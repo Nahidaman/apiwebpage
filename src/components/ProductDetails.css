@@ -1,0 +1,62 @@
+.detailsdiv{
+    display: flex; 
+    justify-content: space-evenly; 
+}
+.detailsdiv img{
+    transition: 0.5s;
+}
+.detailsdiv img:hover{
+    transform: scale(1.05);
+}
+.detls{
+    display: grid;
+    grid-template-rows: 80px 200px 80px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.tit{
+    width: 500px;
+}
+.decs{
+    width: 500px;
+    overflow: auto;
+}
+.decs::-webkit-scrollbar {
+  display: none;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.btn:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.homebtn{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.homebtn:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.divbtn{
+    display: flex;
+}
+.rate{
+    display: flex;
+    gap:90px;
+}
